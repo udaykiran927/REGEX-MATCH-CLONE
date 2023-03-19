@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGEXP</title>
+    <link rel="stylesheet" href="/static/style1.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="sub-page">
+            <div class="form">
+                <form  action="{{ url_for('find')}}" method="POST">
+                    <center><h1 class="main-heading">PATTERN MATCHING</h1></center>
+                    <center><label>Regular Expression</label><br>
+                    <input type="text" name="reg"placeholder="Enter Regular Expression"/ required><br>
+                    <label>Test String</label><br><br>
+                    <textarea id="txt" name="test" placeholder="Enter Test String here..."></textarea></center>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
