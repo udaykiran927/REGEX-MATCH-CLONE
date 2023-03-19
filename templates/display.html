@@ -12,12 +12,12 @@
         <div class="sub-page">
             <div class="form">
                 <label>Matched patterns are..</label><br><br>
-                <textarea name="dispaly">
+                <ul>
                     {% for i in k %}
-                    {{i}}
+                    <li>{{i}}</li>
                     {% endfor %}
                     {{msg}}
-                </textarea>
+                </ul>
             </div>
         </div>
     </div>
